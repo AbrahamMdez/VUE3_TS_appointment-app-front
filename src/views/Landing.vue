@@ -3,7 +3,9 @@
 
     <Header />
 
-    <Main />
+    <!-- <Main /> -->
+
+    <Register />
   
     <Footer />
 
@@ -15,6 +17,7 @@ import { defineComponent } from 'vue';
 import Header from '@/components/Header.vue'
 import Main from '@/components/Main.vue'
 import Footer from '@/components/Footer.vue'
+import Register from '@/components/Register.vue'
 
 export default defineComponent({
   name: 'Landing',
@@ -22,7 +25,8 @@ export default defineComponent({
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    Register
   }
   
 });
