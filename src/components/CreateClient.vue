@@ -1,21 +1,21 @@
 <template>
   <form @submit.prevent="saveClient">
-      <label>Nombre</label>
-      <input type="text" v-model="newClient.name" placeholder="Nombre">
+    <label>Nombre</label>
+    <input type="text" v-model="newClient.name" placeholder="Nombre">
 
-      <label>Apellidos</label>
-      <input type="text" v-model="newClient.surname" placeholder="Apellidos">
+    <label>Apellidos</label>
+    <input type="text" v-model="newClient.surname" placeholder="Apellidos">
 
-      <label>Teléfono</label>
-      <input type="number" v-model="newClient.phoneNumber" placeholder="Teléfono"> 
+    <label>Teléfono</label>
+    <input type="number" v-model="newClient.phoneNumber" placeholder="Teléfono"> 
 
-      <label>Correo Electrónico</label>
-      <input type="email" v-model="newClient.email" placeholder="Correo electrónico">
+    <label>Correo Electrónico</label>
+    <input type="email" v-model="newClient.email" placeholder="Correo electrónico">
 
-      <label>NIF</label>
-      <input type="text" v-model="newClient.nif" placeholder="NIF">
+    <label>NIF</label>
+    <input type="text" v-model="newClient.nif" placeholder="NIF">
       
-      <input type="submit" value="Crear">
+    <input type="submit" value="Crear">
   </form>
 </template>
 
