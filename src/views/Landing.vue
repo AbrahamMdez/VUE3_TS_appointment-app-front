@@ -3,9 +3,7 @@
 
     <Header />
 
-    <!-- <Main /> -->
-
-    <Register />
+    <CreateClient />
   
     <Footer />
 
@@ -15,21 +13,20 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Header from '@/components/Header.vue'
-import Main from '@/components/Main.vue'
+import CreateClient from '@/components/CreateClient.vue'
 import Footer from '@/components/Footer.vue'
-import Register from '@/components/Register.vue'
 
 export default defineComponent({
   name: 'Landing',
 
   components: {
     Header,
-    Main,
-    Footer,
-    Register
+    CreateClient,
+    Footer
   }
   
 });
+
 </script>
 
 <style scoped>

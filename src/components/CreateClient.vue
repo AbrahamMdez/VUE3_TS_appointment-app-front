@@ -14,12 +14,6 @@
 
       <label>NIF</label>
       <input type="text" v-model="newClient.nif" placeholder="NIF">
-
-      <!-- <label>Contraseña</label>
-      <input type="text" v-model="newClient.pass1" placeholder="Contraseña">
-
-      <label>Repetir Contraseña</label>
-      <input type="text" v-model="newClient.pass2" placeholder="Repetir contraseña"> -->
       
       <input type="submit" value="Crear">
   </form>
@@ -27,7 +21,7 @@
 
 <script>
 export default {
-    name: 'Register',
+    name: 'CreateClient',
 
     data() {
         return {
@@ -36,9 +30,7 @@ export default {
                 surname: '',
                 phoneNumber: '',
                 email: '',
-                nif: '',
-                // pass1: '',
-                // pass2: ''
+                nif: ''
             }
         }
     },
@@ -57,6 +49,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

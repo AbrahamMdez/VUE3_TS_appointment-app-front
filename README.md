@@ -22,3 +22,7 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Cambios pendientes
+1. Font size placeholder inputs
+2. 
