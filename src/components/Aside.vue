@@ -1,8 +1,5 @@
 <template>
     <aside>
-        <router-link to="/">
-            <i class="fab fa-elementor"></i>
-        </router-link>
     </aside>
 </template>
 
